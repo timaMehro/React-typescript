@@ -1,0 +1,182 @@
+
+
+html {
+	background: url(/src/images/bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.page-wrap {
+	width: 95%;
+	margin: 50px auto;
+	height: 700px;
+	padding: 20px;
+	background: white;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btnDelet {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 50%;
+	width: 10px;
+	border: 1px solid #E5C9C9;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btnDelet:hover {
+	background-color: red;
+}
+
+.center {
+	height: 134px;
+	width: 235px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 20px;
+	border: 2px solid #EEE;
+	border-radius: 8px;
+	position: relative;
+}
+
+.center {
+	height: 134px;
+	width: 235px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: 20px;
+	border: 2px solid #EEE;
+	border-radius: 8px;
+}
+
+.profile {
+	position: relative;
+}
+
+.profile .image {
+	position: absolute;
+	margin: 38px auto 0 auto;
+	top: -20px;
+	left: 20px;
+	display: block;
+}
+
+.profile .image img {
+	display: block;
+	border-radius: 50%;
+	background: #f5e8df;
+}
+
+.profile .image:hover {
+	cursor: pointer;
+}
+
+h1 {
+	color: #2B7255;
+	font-size: 18px;
+	font-family: aria;
+	font-family: arial;
+}
+
+h2 {
+	color: #363636;
+	font-size: 18px;
+	font-family: arial;
+	font-family: arial;
+}
+
+.personalItems {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.personalImg {
+	box-shadow: 0 0 0 9px hsl(0, 0%, 100%), 0 0 0 11px hsl(0, 10%, 90%);
+	border-radius: 50%;
+}
+
+.personalItems div {
+	color: #8D8D8D;
+	font-size: 11px;
+	font-family: arial;
+	font-family: arial;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.Btn {
+	background-color: #28BF7E;
+	color: white;
+	width: 109px;
+	margin-right: 5px;
+	line-height: 31px;
+	border: 1px solid #28BF7E;
+	border-radius: 27px;
+	margin-bottom: 10px;
+}
+
+.description {
+	color: #8D8D8D;
+	font-size: 8px;
+	font-family: arial;
+	margin: 5px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: justify;
+	border-top: 1px solid #EDEDED;
+}
+
+.textCard {
+	position: absolute;
+	left: 71px;
+	top: 10px;
+	width: 100px;
+	color: #8D8D8D;
+	font-size: 11px;
+	font-family: arial;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.FloghtRight {
+	float: left;
+}
+
+.textCard span {
+	color: #494949;
+	font-size: 15px;
+}
+
+.locationCard {
+	position: absolute;
+	color: #8D8D8D;
+	font-size: 11px;
+	font-family: arial;
+	bottom: -44px;
+	left: 10px;
+	width: 150px;
+}
+
+.TxtBox {
+	margin-bottom: 5px;
+	width: 180px;
+	border: 1px solid #D4D4D4;
+	line-height: 20px;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.AccoundAdd {
+	padding-top: 21px;
+}
+
